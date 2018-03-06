@@ -51,3 +51,6 @@ class LogIt:
             writer = csv.DictWriter(csvfile, headers)
             writer.writeheader()
             writer.writerows(self.results)
+
+    def clear_results(self):
+        self.results = []
