@@ -9,4 +9,4 @@ c.results_to_csv('example.csv')
 ```
 LogIt contains only one Python class, taking two keyword arguments. user_agent_filter - filters results down to the user agent based in and this is 'Googlebot' as default. ip_filter - takes an iterable of verified IP's whether they be Google, Bing or Yandex.
 
-Log files can be passed to the parse_log_file method which will parse the file and save the results in memory. This can be called on multiple files or the results can be dumped. Additionally, there is a results_to_csv method which dumps the results into a CSV file.
+Log files can be passed to the parse_log_file method which will parse the file and save the results in memory. This can be called on multiple files or the results can be dumped into a database. Additionally, there is a results_to_csv method which dumps the results into a CSV file.
